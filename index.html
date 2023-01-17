@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Courgette&family=EB+Garamond:ital@1&family=Kanit:ital,wght@0,300;0,400;1,300;1,400&family=Rubik&family=Zen+Dots&display=swap" rel="stylesheet">
+    <title>Diseño</title>
+</head>
+<body style="font-family: 'Cormorant Garamond', serif;
+font-family: 'Courgette', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Zen Dots', cursive;">
+<header class="sticky-top ">
+    <ul class="nav" style="background-color: #2b5d8b;">
+        <li class="nav-item col-2">
+          <a class="nav-link text-white" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item col-2">
+          <a class="nav-link text-white" href="#Servicios">Servicios</a>
+        </li>
+        <li class="nav-item col-3 ">
+          <a class="nav-link text-white" href="/quienessomos.html">Quienes Somos</a>
+        </li>      
+    </ul>
+</header>
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/img/imagen1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/img/imagen2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/img/imagen3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    <!--FORM-->
+    <div id="Servicios" class="row" style="background-color: black;">
+      <h2 class="text-white" style="padding: 20px;">SERVICIOS</h2>
+  <div class="col-6 text-white" style="display: flex; padding: 30px;">
+    <ul>
+      <li> CASAS DE PLAYA</li><br>
+      <li> CASAS DE CAMPO</li><br>
+      <li>TRIPLEX</li><br>
+      <li> DEPARTAMENTOS GRANDES</li><br>
+      <li> DEPARTAMENTOS PEQUEÑOS</li><br>
+      <li>Asesoria profesional de diseño</li>
+    </ul>
+    <ul>
+      <li>Contacto:LC74575347@Zegelipae.pe</li><br>
+      <li>Tel. Peru:+51965440521</li><br>
+      <li>WhatsApp:965440521</li><br>
+      <li>Tel USA:(659)2020256</li><br>
+      <li>WhatsApp:+16592020256</li><br>
+    </ul>
+  </div>
+  <div class="col-6 text-white">
+    <h2>INFORMACION</h2>
+    <!-- Left and right controls/icons -->
+    <form class="bg-blac" style="position: relative; padding: 20px;">
+      <!-- 2 column grid layout with text inputs for the first and last names -->
+      <div class="row mb-4">
+        <div class="col">
+          <div class="form-outline">
+            <input type="text" id="form6Example1" class="form-control" />
+            <label class="form-label" for="form6Example1">Nombre *</label>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-outline">
+            <input type="text" id="form6Example2" class="form-control" />
+            <label class="form-label" for="form6Example2">Apellido *</label>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Text input -->
+      <div class="form-outline mb-4">
+        <input type="text" id="form6Example3" class="form-control" />
+        <label class="form-label" for="form6Example3">Nombre de empresa</label>
+      </div>
+    
+      <!-- Text input -->
+      <div class="form-outline mb-4">
+        <input type="text" id="form6Example4" class="form-control" />
+        <label class="form-label" for="form6Example4">Direccion *</label>
+      </div>
+    
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="email" id="form6Example5" class="form-control" />
+        <label class="form-label" for="form6Example5">Email *</label>
+      </div>
+    
+      <!-- Number input -->
+      <div class="form-outline mb-4">
+        <input type="number" id="form6Example6" class="form-control" />
+        <label class="form-label" for="form6Example6">Telefono *</label>
+      </div>
+    
+      <!-- Message input -->
+      <div class="form-outline mb-4">
+        <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+        <label class="form-label" for="form6Example7">Informacion adicional *</label>
+      </div>
+    
+      <!-- Checkbox -->
+      <div class="form-check d-flex justify-content-center mb-4">
+        <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
+        <label class="form-check-label" for="form6Example8"> Crear una cuenta * </label>
+      </div>
+    
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
+    </form>
+      </div>
+
+    </div>
+
+
+  </div>
+</body>
+</html>
